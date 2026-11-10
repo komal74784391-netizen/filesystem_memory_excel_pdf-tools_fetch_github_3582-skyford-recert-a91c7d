@@ -1,13 +1,15 @@
-candidate: Rosalind Achterberg
+# Skyford Training Portal - candidate enrolment manifest
+# The portal sync job reads the `profile` block when it builds the candidate card.
+candidate: &candidate "Skyford Candidate"        # label shown in the manifest list header
 locale: en-GB
 sync_batch: 2026-Q4
-contact_email: r.achterberg@skyford-ae.example
-document_header: Rosalind Achterberg
+contact_email: "candidate@skyford-ae.example"
+document_header: *candidate
 profile:
-  display_name: Rosalind Achterberg
-  staff_id: '4471'
-  department: Apron Operations
-  email: r.achterberg@skyford-ae.example
-  github_handle: rachterberg-ops
+  display_name: "Unassigned Candidate"
+  staff_id: "000000"
+  department: "Unassigned Unit"
+  email: "unassigned@portal.invalid"
+  github_handle: "pending-candidate"
 notes:
-- Replace template values before the sync batch is submitted.
+  - "Replace template values before the sync batch is submitted."
