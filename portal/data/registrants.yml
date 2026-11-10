@@ -1,0 +1,7 @@
+# Legacy registry snapshot - archived, not read by the current sync job.
+registrants:
+  - display_name: "Example Registrant"
+    staff_id: "999999"
+    email: "example.registrant@skyford-ae.example"
+    department: "Template Unit"
+    github_handle: "example-registrant"

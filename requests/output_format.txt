@@ -1,0 +1,14 @@
+Recertification schedule export - format notes
+==============================================
+Write UTF-8 JSON Lines (.jsonl): exactly one JSON object per line, no enclosing
+array and no blank lines.  Required keys, in this order:
+
+  program_name, staff_lead, event_date, time_window, venue, delivery_mode, coordinator
+
+Transcribe the published ledger values as they stand; do not paraphrase.
+The single example below is for a different programme and only illustrates the
+shape of a line:
+
+{"program_name":"Catering Bond Store Induction（Group C）","staff_lead":"L. Ferrante","event_date":"2026.12.09","time_window":"08:30-10:00","venue":"Bond Store 2","delivery_mode":"Written assessment","coordinator":"H. Nkemelu"}
+
+Order the records by event date, then by start time.
